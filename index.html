@@ -143,10 +143,8 @@
           <img src="assets/Rectangle 9.png" alt="" class="w-full   h-[350px] rounded-xl object-cover" />
           <h2 class="absolute text-white text-xl font-semibold  top-1/2">Kashmir</h2>
         </div>
-
-
-
-      </div>
+        
+       </div>
 
       <!-- 3rd section -->
 
@@ -204,7 +202,7 @@
     
       </div>
     
-      <div class=" grid grid-cols-1 mt-8 w-[50%] mx-auto ">
+      <div class=" grid grid-cols-1 mt-8  lg:w-[50%] mx-auto ">
         <!-- third card -->
         <div class=" border-2 border-pink-500 bg-pink-100 rounded-xl space-y-4 p-3">
           <div><img src="assets/icons8-discount-80.png" alt=""></div>
@@ -234,11 +232,11 @@
     <p class=" text-lg lg:text-sm text-center pt-4 mb-8">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
 
     <!-- 1st card -->
-    <div class="relative w-11/12 max-w-6xl mx-auto my-12">
+    <div class="relative w-11/12   mx-auto my-12">
    <img src="assets/Group 40.png" alt="" class="w-full h-[500px] object-cover rounded-xl">
 
     <!-- Overlay Card -->
-    <div class="absolute top-1/2 right-10 transform -translate-y-1/2 bg-white/80 backdrop-blur-md p-6 rounded-xl shadow-lg max-w-md">
+    <div class="absolute top-1/2 right-0 mx-4  md:right-10 transform -translate-y-1/2 bg-white/80 backdrop-blur-md p-6 rounded-xl shadow-lg max-w-md">
       
 
       <!-- Title -->
@@ -257,14 +255,15 @@
         Book Now
       </button>
     </div>
+
     </div>
 
       <!-- 2nd  card -->
-    <div class="relative w-11/12 max-w-6xl mx-auto my-12">
+    <div class="relative w-11/12  mx-auto my-12">
    <img src="assets/Group 40.png" alt="" class="w-full h-[500px]  object-cover rounded-xl">
 
     <!-- Overlay Card -->
-    <div class="absolute top-1/2 left-10 transform -translate-y-1/2 bg-white/80 backdrop-blur-md p-6 rounded-xl shadow-lg max-w-md">
+    <div class="absolute top-1/2 mx-4 left-0 md:left-10 transform -translate-y-1/2 bg-white/80 backdrop-blur-md p-6 rounded-xl shadow-lg max-w-md">
       
 
       <!-- Title -->
@@ -286,11 +285,11 @@
     </div>
 
      <!-- 3rd  card -->
-    <div class="relative w-11/12 max-w-6xl mx-auto my-12">
+    <div class="relative w-11/12  mx-auto my-12">
    <img src="assets/Group 40.png" alt="" class="w-full h-[500px] object-cover rounded-xl">
 
     <!-- Overlay Card -->
-    <div class="absolute top-1/2 right-10 transform -translate-y-1/2 bg-white/80 backdrop-blur-md p-6 rounded-xl shadow-lg max-w-md">
+    <div class="absolute top-1/2 right-0  mx-4  md:right-10 transform -translate-y-1/2 bg-white/80 backdrop-blur-md p-6 rounded-xl shadow-lg max-w-md">
       
 
       <!-- Title -->
@@ -324,7 +323,7 @@
    <div class="w-11/12 mx-auto grid grid-cols-1 lg:grid-cols-2 py-12 gap-5">
 
     <div class="space-y-6">
-      <h1 class="text-xl lg:text-5xl font-bold text-center ">A Simple Perfect Place To Get Lost</h1>
+      <h1 class="text-xl lg:text-5xl font-bold  ">A Simple Perfect Place To Get Lost</h1>
       <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. </p>
       <p class="font-bold text-sm lg:text-lg">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</p>
       <p class="font-bold text-sm lg:text-lg">Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</p>
@@ -332,7 +331,7 @@
     </div>
 
     <div>
-     <video width="750px" height="550px" controls autoplay loop mute>
+     <video class="w-full"   height="550px" controls autoplay loop mute>
         <source src="assets/mountain.mp4" type="video/mp4"> 
          </video>
     </div>
@@ -343,9 +342,9 @@
 
     <!-- input section start here -->
 
-    <div class=" w-11/12 mx-auto  px-24  grid grid-cols-1 lg:grid-cols-2 gap-5 py-8 " >
+    <div class=" w-11/12 mx-auto  grid grid-cols-1 lg:grid-cols-12 gap-5 py-8 " >
 
-      <div class=" border-2 border-orange-500 rounded-2xl py-6 px-4">
+      <div class=" border-2 border-orange-500 col-span-6 lg:col-span-5 rounded-2xl py-6 px-4">
 
 
         <div class="space-y-6 ">
@@ -353,27 +352,24 @@
         <h1 class="text-lg lg:text-2xl font-bold">Newsletter</h1>
       <p>Get your daily dose of travel news & tips. Sign up today!</p>
       </div>
-      <form>
-        <input type="text" class="input validator" required placeholder=" Enter your name" />
+      <form class="space-y-4">
+        <input type="text" class="input validator w-full" required placeholder=" Enter your name"/>
+          <input type="email"  class="input validator w-full" placeholder="mail@site.com" required />
+          <div>
+             <button class="bg-orange-500 text-white px-14 py-2 rounded-lg hover:bg-red-500 transition mt-4 ">Subscribe</button>
+
+          </div>
+         
+    
         </form>
       </div>
 
-        <div class="pt-5">
-          <label class="input validator">
-           
-            <input type="email" placeholder="mail@site.com" required />
-          </label>
-          <div class="validator-hint hidden">Enter valid email address</div>
-        
-        
-        </div>
-
-          <button class="bg-orange-500 text-white px-14 py-2 rounded-lg hover:bg-red-500 transition mt-4 ">Subscribe</button>
-    
+      
+          
      
       </div>
 
-      <div><img src="assets/Rectangle 8 (1).png" class=" mx-auto rounded-xl md:w-[750px] md:h-[400px] " alt=""></div>
+      <div class="col-span-6 lg:col-span-7"><img src="assets/Rectangle 8 (1).png" class="  mx-auto rounded-xl w-full md:h-[400px] " alt=""></div>
 
     </div>
       <!-- input section end here -->
@@ -428,7 +424,7 @@
 
       <!-- footer section end here  -->
 
-
+   
 
 
 
